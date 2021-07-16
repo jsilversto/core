@@ -28,6 +28,8 @@
 #include "planner.h"
 #include "kinematics.h"
 
+#include <math.h>
+
 // CoreXY motor assignments. DO NOT ALTER.
 // NOTE: If the A and B motor axis bindings are changed, this effects the CoreXY equations.
 #define A_MOTOR X_AXIS // Must be X_AXIS
